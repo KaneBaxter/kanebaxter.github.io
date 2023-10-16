@@ -1,0 +1,119 @@
+
+
+body {
+  margin: 0;
+  margin-top: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Images/Lumis/Kanesroom1.PNG)
+  
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+
+}
+
+/*Item1(Nav bar/Header) */
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgba(8, 8, 8, 0.733);
+}
+
+/*Navigation list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*End of navigation list */
+
+/*End of Item1 related items */
+
+
+.item1 h2 {
+  color: rgba(228, 228, 228,1);
+  margin-left: 10px;
+}
+
+/*Item1(Portfolio Photo) */
+.item2{
+  background-color: rgba(8, 8, 8, 0.795);
+  margin-left: 0px;
+  margin-right: -50px;
+  border-radius: 25%;
+
+}
+
+.item2 img{ /*Picture of me */
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 35%;
+}
+
+
+/*Item1(About me section) */
+.item3{
+  text-align: left;
+  border-radius: 10px;
+  background-color: rgba(8, 8, 8, 0.493);
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.item3 h3{ 
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgba(228, 228, 228,1);
+}
+
+.item3 p{
+  color: rgba(228, 228, 228,1);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Item4(Footer) */
+.item4{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgba(8, 8, 8, 0.493);
+}
