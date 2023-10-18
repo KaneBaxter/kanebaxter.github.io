@@ -2,6 +2,8 @@
 html{
   height: 100%;
 }
+
+
 body {
   width: 100%;
   margin: 0;
@@ -23,6 +25,11 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
+  background-color: #04AA6D;
+  max-width: 60%;
+  height: auto;
+  position: absolute;
+  left: 25%;
 }
 
 .grid-container > div {
@@ -74,9 +81,9 @@ li a:hover:not(.active) {
   margin-left: 10px;
 }
 
-/*Item1(Portfolio Photo) */
+/*Item1(Portfolio Photo Box) */
 .item2{
-  background-color: rgba(8, 8, 8, 0.795);
+ /* background-color: rgba(8, 8, 8, 0.795);*/
   margin-left: 0px;
   margin-right: -50px;
   border-radius: 25%;
@@ -84,9 +91,9 @@ li a:hover:not(.active) {
 }
 
 .item2 img{ /*Picture of me */
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 10%;
   display:block;
   margin-left: auto;
   margin-right: auto;
